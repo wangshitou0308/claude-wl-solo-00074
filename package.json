@@ -1,0 +1,25 @@
+{
+  "name": "rice-cooker-reserve-guide",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "电饭煲预约跨日校时引导台 —— 纯前端本地应用，资料仅存浏览器",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright-core": "^1.63.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
